@@ -1,0 +1,67 @@
+preview, not a master
+{
+  "arrangement_path": "midi/arrangement.mid",
+  "arrangement_sha256": "a58e2a9eff27c5a37d4e1bc4800913e5ee615fca44e9eebd52cd08faa80ce42a",
+  "encode": "libmp3lame CBR 192 kbps, mono source",
+  "excerpt": {
+    "bars": "1-16, the full container",
+    "end_tick": 30720,
+    "sequencing": "foundation, field, and signal, variation A, for the full 8 bars",
+    "start_tick": 0,
+    "study": "s01",
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "a20cb58763993e4e773e8e4c625c5b36ad502fc5c0e789e400e7a52f6c11313e",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "distant-signal": "high sine, short decay",
+    "foundation": "sine, slow attack, the same voice as a soft pad",
+    "harmonic-field": "triangle, slow decay"
+  },
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-i",
+    "/home/runner/work/cosmic-drones/cosmic-drones/build/preview.wav",
+    "-codec:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "/home/runner/work/cosmic-drones/cosmic-drones/preview/preview.mp3"
+  ],
+  "mp3_path": "preview/preview.mp3",
+  "mp3_sha256": "22a5902f4abbea031217b218ea9f574ded0e602d9fc91289345fc33d00f9c712",
+  "pack_id": "cosmic-drones",
+  "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+  "renderer": "simple-synth-1.0.0",
+  "renderer_note": "These voices are preview mappings. They are not encoded in the MIDI file.",
+  "rounding": "sample = floor(seconds * sample_rate + 0.5), computed from tick 0; intervals are not summed",
+  "sample_peak": 6638,
+  "sample_peak_dbfs": -13.868253737742656,
+  "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a true-peak measurement and it is not LUFS.",
+  "score_seconds": 30.0,
+  "score_sha256": "82e9829378d7d376bbf9f188d257c96d6b48fc0905bb8f9246645ec93cc770f5",
+  "seconds_encoded": 30.040816,
+  "source_parts": [
+    {
+      "id": "s01.foundation.a",
+      "path": "midi/s01-common-tone/foundation-a.mid",
+      "sha256": "e0993197a3098554db835e06973b736668ff4564d7f571b394939205aa5320b7"
+    },
+    {
+      "id": "s01.field.a",
+      "path": "midi/s01-common-tone/harmonic-field-a.mid",
+      "sha256": "f31b21c51c24d77ecab12075608b851b57275ff6b3dd874407cf3807a84f1361"
+    },
+    {
+      "id": "s01.signal.a",
+      "path": "midi/s01-common-tone/distant-signal-a.mid",
+      "sha256": "92207ce02be8d1de6693c605390eb3b44939cac1ba1bdcba98e66a1464a57e03"
+    }
+  ],
+  "tempo_authority": "encoded MIDI tempo",
+  "tempo_us": 937500
+}

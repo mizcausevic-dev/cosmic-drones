@@ -1,0 +1,2387 @@
+{
+  "arrangement": {
+    "bpm": 64,
+    "container_ticks": 30720,
+    "description": "Study 01 variation A foundation, harmonic field, and distant signal. Full 8-bar container.",
+    "format": 1,
+    "id": "arrangement-preview-s01a",
+    "meter": "4/4",
+    "path": "midi/arrangement.mid",
+    "tempo_us": 937500,
+    "tracks": [
+      {
+        "channel": null,
+        "name": "Conductor",
+        "source_part": null
+      },
+      {
+        "channel": 0,
+        "name": "Foundation",
+        "source_part": "s01.foundation.a"
+      },
+      {
+        "channel": 1,
+        "name": "Harmonic Field",
+        "source_part": "s01.field.a"
+      },
+      {
+        "channel": 2,
+        "name": "Distant Signal",
+        "source_part": "s01.signal.a"
+      }
+    ]
+  },
+  "generator_version": "1.0.0",
+  "identity_check": {
+    "method": "each role's variations differ, and variation A entry times are not shared across studies",
+    "pairs": [
+      {
+        "a": 2,
+        "b": 2,
+        "role": "foundation",
+        "study_id": "s01"
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "role": "foundation",
+        "study_id": "s02"
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "role": "foundation",
+        "study_id": "s03"
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "role": "foundation",
+        "study_id": "s04"
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "role": "foundation",
+        "study_id": "s05"
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "role": "foundation",
+        "study_id": "s06"
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "role": "foundation",
+        "study_id": "s07"
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "role": "foundation",
+        "study_id": "s08"
+      },
+      {
+        "a": 4,
+        "b": 3,
+        "role": "harmonic-field",
+        "study_id": "s01"
+      },
+      {
+        "a": 4,
+        "b": 3,
+        "role": "harmonic-field",
+        "study_id": "s02"
+      },
+      {
+        "a": 6,
+        "b": 6,
+        "role": "harmonic-field",
+        "study_id": "s03"
+      },
+      {
+        "a": 3,
+        "b": 3,
+        "role": "harmonic-field",
+        "study_id": "s04"
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "role": "harmonic-field",
+        "study_id": "s05"
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "role": "harmonic-field",
+        "study_id": "s06"
+      },
+      {
+        "a": 3,
+        "b": 3,
+        "role": "harmonic-field",
+        "study_id": "s07"
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "role": "harmonic-field",
+        "study_id": "s08"
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "role": "distant-signal",
+        "study_id": "s01"
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "role": "distant-signal",
+        "study_id": "s02"
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "role": "distant-signal",
+        "study_id": "s03"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "role": "distant-signal",
+        "study_id": "s04"
+      },
+      {
+        "a": 5,
+        "b": 3,
+        "role": "distant-signal",
+        "study_id": "s05"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "role": "distant-signal",
+        "study_id": "s06"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "role": "distant-signal",
+        "study_id": "s07"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "role": "distant-signal",
+        "study_id": "s08"
+      }
+    ]
+  },
+  "pack_id": "cosmic-drones",
+  "parts": [
+    {
+      "bpm": 64,
+      "channel": 0,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s01.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 19200,
+          "id": "s01.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 38,
+          "velocity": 72
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 19200,
+          "id": "s01.foundation.a.n0002",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 45,
+          "velocity": 64
+        }
+      ],
+      "path": "midi/s01-common-tone/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s01-common-tone",
+      "study_id": "s01",
+      "tempo_us": 937500,
+      "variation": "a"
+    },
+    {
+      "bpm": 64,
+      "channel": 0,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s01.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 11520,
+          "id": "s01.foundation.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 45,
+          "velocity": 70
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 11520,
+          "id": "s01.foundation.b.n0002",
+          "nominal_start": 19200,
+          "offset": 0,
+          "performed_start": 19200,
+          "pitch": 38,
+          "velocity": 66
+        }
+      ],
+      "path": "midi/s01-common-tone/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s01-common-tone",
+      "study_id": "s01",
+      "tempo_us": 937500,
+      "variation": "b"
+    },
+    {
+      "bpm": 64,
+      "channel": 1,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s01.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s01.field.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 53,
+          "velocity": 58
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s01.field.a.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 57,
+          "velocity": 54
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s01.field.a.n0003",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 60,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 7680,
+          "id": "s01.field.a.n0004",
+          "nominal_start": 23040,
+          "offset": 0,
+          "performed_start": 23040,
+          "pitch": 64,
+          "velocity": 46
+        }
+      ],
+      "path": "midi/s01-common-tone/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s01-common-tone",
+      "study_id": "s01",
+      "tempo_us": 937500,
+      "variation": "a"
+    },
+    {
+      "bpm": 64,
+      "channel": 1,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s01.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 7680,
+          "id": "s01.field.b.n0001",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 65,
+          "velocity": 60
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 7680,
+          "id": "s01.field.b.n0002",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 69,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s01.field.b.n0003",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 62,
+          "velocity": 54
+        }
+      ],
+      "path": "midi/s01-common-tone/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s01-common-tone",
+      "study_id": "s01",
+      "tempo_us": 937500,
+      "variation": "b"
+    },
+    {
+      "bpm": 64,
+      "channel": 2,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s01.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s01.signal.a.n0001",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 81,
+          "velocity": 70
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 1920,
+          "id": "s01.signal.a.n0002",
+          "nominal_start": 23040,
+          "offset": 0,
+          "performed_start": 23040,
+          "pitch": 86,
+          "velocity": 64
+        }
+      ],
+      "path": "midi/s01-common-tone/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s01-common-tone",
+      "study_id": "s01",
+      "tempo_us": 937500,
+      "variation": "a"
+    },
+    {
+      "bpm": 64,
+      "channel": 2,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s01.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s01.signal.b.n0001",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 76,
+          "velocity": 68
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 1920,
+          "id": "s01.signal.b.n0002",
+          "nominal_start": 9600,
+          "offset": 0,
+          "performed_start": 9600,
+          "pitch": 88,
+          "velocity": 60
+        }
+      ],
+      "path": "midi/s01-common-tone/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s01-common-tone",
+      "study_id": "s01",
+      "tempo_us": 937500,
+      "variation": "b"
+    },
+    {
+      "bpm": 50,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s02.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s02.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 31,
+          "velocity": 68
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s02.foundation.a.n0002",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 38,
+          "velocity": 54
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s02.foundation.a.n0003",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 31,
+          "velocity": 64
+        }
+      ],
+      "path": "midi/s02-wide-fifth/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s02-wide-fifth",
+      "study_id": "s02",
+      "tempo_us": 1200000,
+      "variation": "a"
+    },
+    {
+      "bpm": 50,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s02.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s02.foundation.b.n0001",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 38,
+          "velocity": 70
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s02.foundation.b.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 43,
+          "velocity": 50
+        }
+      ],
+      "path": "midi/s02-wide-fifth/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s02-wide-fifth",
+      "study_id": "s02",
+      "tempo_us": 1200000,
+      "variation": "b"
+    },
+    {
+      "bpm": 50,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s02.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s02.field.a.n0001",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 55,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s02.field.a.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 59,
+          "velocity": 46
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s02.field.a.n0003",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 62,
+          "velocity": 42
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s02.field.a.n0004",
+          "nominal_start": 38400,
+          "offset": 0,
+          "performed_start": 38400,
+          "pitch": 67,
+          "velocity": 48
+        }
+      ],
+      "path": "midi/s02-wide-fifth/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s02-wide-fifth",
+      "study_id": "s02",
+      "tempo_us": 1200000,
+      "variation": "a"
+    },
+    {
+      "bpm": 50,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s02.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s02.field.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 55,
+          "velocity": 52
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s02.field.b.n0002",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 64,
+          "velocity": 46
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s02.field.b.n0003",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 71,
+          "velocity": 40
+        }
+      ],
+      "path": "midi/s02-wide-fifth/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s02-wide-fifth",
+      "study_id": "s02",
+      "tempo_us": 1200000,
+      "variation": "b"
+    },
+    {
+      "bpm": 50,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s02.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "s02.signal.a.n0001",
+          "nominal_start": 34560,
+          "offset": 0,
+          "performed_start": 34560,
+          "pitch": 79,
+          "velocity": 62
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s02.signal.a.n0002",
+          "nominal_start": 53760,
+          "offset": 0,
+          "performed_start": 53760,
+          "pitch": 86,
+          "velocity": 58
+        }
+      ],
+      "path": "midi/s02-wide-fifth/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s02-wide-fifth",
+      "study_id": "s02",
+      "tempo_us": 1200000,
+      "variation": "a"
+    },
+    {
+      "bpm": 50,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s02.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s02.signal.b.n0001",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 91,
+          "velocity": 66
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "s02.signal.b.n0002",
+          "nominal_start": 46080,
+          "offset": 0,
+          "performed_start": 46080,
+          "pitch": 74,
+          "velocity": 54
+        }
+      ],
+      "path": "midi/s02-wide-fifth/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s02-wide-fifth",
+      "study_id": "s02",
+      "tempo_us": 1200000,
+      "variation": "b"
+    },
+    {
+      "bpm": 72,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s03.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s03.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 28,
+          "velocity": 66
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s03.foundation.a.n0002",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 40,
+          "velocity": 70
+        }
+      ],
+      "path": "midi/s03-rising-field/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s03-rising-field",
+      "study_id": "s03",
+      "tempo_us": 833333,
+      "variation": "a"
+    },
+    {
+      "bpm": 72,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s03.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 61440,
+          "id": "s03.foundation.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 40,
+          "velocity": 60
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s03.foundation.b.n0002",
+          "nominal_start": 46080,
+          "offset": 0,
+          "performed_start": 46080,
+          "pitch": 35,
+          "velocity": 54
+        }
+      ],
+      "path": "midi/s03-rising-field/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s03-rising-field",
+      "study_id": "s03",
+      "tempo_us": 833333,
+      "variation": "b"
+    },
+    {
+      "bpm": 72,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s03.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 38400,
+          "id": "s03.field.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 52,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s03.field.a.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 53,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s03.field.a.n0003",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 55,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s03.field.a.n0004",
+          "nominal_start": 23040,
+          "offset": 0,
+          "performed_start": 23040,
+          "pitch": 59,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s03.field.a.n0005",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 64,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s03.field.a.n0006",
+          "nominal_start": 38400,
+          "offset": 0,
+          "performed_start": 38400,
+          "pitch": 67,
+          "velocity": 50
+        }
+      ],
+      "path": "midi/s03-rising-field/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s03-rising-field",
+      "study_id": "s03",
+      "tempo_us": 833333,
+      "variation": "a"
+    },
+    {
+      "bpm": 72,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s03.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s03.field.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 59,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s03.field.b.n0002",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 64,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s03.field.b.n0003",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 67,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s03.field.b.n0004",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 55,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s03.field.b.n0005",
+          "nominal_start": 38400,
+          "offset": 0,
+          "performed_start": 38400,
+          "pitch": 53,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s03.field.b.n0006",
+          "nominal_start": 46080,
+          "offset": 0,
+          "performed_start": 46080,
+          "pitch": 52,
+          "velocity": 48
+        }
+      ],
+      "path": "midi/s03-rising-field/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s03-rising-field",
+      "study_id": "s03",
+      "tempo_us": 833333,
+      "variation": "b"
+    },
+    {
+      "bpm": 72,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s03.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s03.signal.a.n0001",
+          "nominal_start": 26880,
+          "offset": 0,
+          "performed_start": 26880,
+          "pitch": 88,
+          "velocity": 72
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s03.signal.a.n0002",
+          "nominal_start": 57600,
+          "offset": 0,
+          "performed_start": 57600,
+          "pitch": 76,
+          "velocity": 60
+        }
+      ],
+      "path": "midi/s03-rising-field/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s03-rising-field",
+      "study_id": "s03",
+      "tempo_us": 833333,
+      "variation": "a"
+    },
+    {
+      "bpm": 72,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s03.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "s03.signal.b.n0001",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 83,
+          "velocity": 64
+        }
+      ],
+      "path": "midi/s03-rising-field/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s03-rising-field",
+      "study_id": "s03",
+      "tempo_us": 833333,
+      "variation": "b"
+    },
+    {
+      "bpm": 55,
+      "channel": 0,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s04.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 61440,
+          "id": "s04.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 36,
+          "velocity": 64
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 61440,
+          "id": "s04.foundation.a.n0002",
+          "nominal_start": 61440,
+          "offset": 0,
+          "performed_start": 61440,
+          "pitch": 43,
+          "velocity": 60
+        }
+      ],
+      "path": "midi/s04-night-register/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s04-night-register",
+      "study_id": "s04",
+      "tempo_us": 1090909,
+      "variation": "a"
+    },
+    {
+      "bpm": 55,
+      "channel": 0,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s04.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s04.foundation.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 43,
+          "velocity": 66
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 61440,
+          "id": "s04.foundation.b.n0002",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 36,
+          "velocity": 58
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s04.foundation.b.n0003",
+          "nominal_start": 92160,
+          "offset": 0,
+          "performed_start": 92160,
+          "pitch": 48,
+          "velocity": 54
+        }
+      ],
+      "path": "midi/s04-night-register/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s04-night-register",
+      "study_id": "s04",
+      "tempo_us": 1090909,
+      "variation": "b"
+    },
+    {
+      "bpm": 55,
+      "channel": 1,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s04.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 76800,
+          "id": "s04.field.a.n0001",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 60,
+          "velocity": 46
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 76800,
+          "id": "s04.field.a.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 67,
+          "velocity": 40
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s04.field.a.n0003",
+          "nominal_start": 69120,
+          "offset": 0,
+          "performed_start": 69120,
+          "pitch": 70,
+          "velocity": 42
+        }
+      ],
+      "path": "midi/s04-night-register/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s04-night-register",
+      "study_id": "s04",
+      "tempo_us": 1090909,
+      "variation": "a"
+    },
+    {
+      "bpm": 55,
+      "channel": 1,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s04.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 46080,
+          "id": "s04.field.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 55,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 46080,
+          "id": "s04.field.b.n0002",
+          "nominal_start": 46080,
+          "offset": 0,
+          "performed_start": 46080,
+          "pitch": 65,
+          "velocity": 44
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s04.field.b.n0003",
+          "nominal_start": 76800,
+          "offset": 0,
+          "performed_start": 76800,
+          "pitch": 58,
+          "velocity": 40
+        }
+      ],
+      "path": "midi/s04-night-register/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s04-night-register",
+      "study_id": "s04",
+      "tempo_us": 1090909,
+      "variation": "b"
+    },
+    {
+      "bpm": 55,
+      "channel": 2,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s04.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": true,
+          "duration": 7680,
+          "id": "s04.signal.a.n0001",
+          "nominal_start": 92160,
+          "offset": 0,
+          "performed_start": 92160,
+          "pitch": 74,
+          "velocity": 70
+        }
+      ],
+      "path": "midi/s04-night-register/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s04-night-register",
+      "study_id": "s04",
+      "tempo_us": 1090909,
+      "variation": "a"
+    },
+    {
+      "bpm": 55,
+      "channel": 2,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s04.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s04.signal.b.n0001",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 77,
+          "velocity": 62
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s04.signal.b.n0002",
+          "nominal_start": 107520,
+          "offset": 0,
+          "performed_start": 107520,
+          "pitch": 82,
+          "velocity": 58
+        }
+      ],
+      "path": "midi/s04-night-register/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s04-night-register",
+      "study_id": "s04",
+      "tempo_us": 1090909,
+      "variation": "b"
+    },
+    {
+      "bpm": 70,
+      "channel": 0,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s05.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s05.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 36,
+          "velocity": 62
+        }
+      ],
+      "path": "midi/s05-signal-rain/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s05-signal-rain",
+      "study_id": "s05",
+      "tempo_us": 857143,
+      "variation": "a"
+    },
+    {
+      "bpm": 70,
+      "channel": 0,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s05.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s05.foundation.b.n0001",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 48,
+          "velocity": 68
+        }
+      ],
+      "path": "midi/s05-signal-rain/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s05-signal-rain",
+      "study_id": "s05",
+      "tempo_us": 857143,
+      "variation": "b"
+    },
+    {
+      "bpm": 70,
+      "channel": 1,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s05.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s05.field.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 60,
+          "velocity": 44
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s05.field.a.n0002",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 64,
+          "velocity": 40
+        }
+      ],
+      "path": "midi/s05-signal-rain/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s05-signal-rain",
+      "study_id": "s05",
+      "tempo_us": 857143,
+      "variation": "a"
+    },
+    {
+      "bpm": 70,
+      "channel": 1,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s05.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s05.field.b.n0001",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 67,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s05.field.b.n0002",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 72,
+          "velocity": 42
+        }
+      ],
+      "path": "midi/s05-signal-rain/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s05-signal-rain",
+      "study_id": "s05",
+      "tempo_us": 857143,
+      "variation": "b"
+    },
+    {
+      "bpm": 70,
+      "channel": 2,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s05.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s05.signal.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 84,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s05.signal.a.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 88,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s05.signal.a.n0003",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 79,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s05.signal.a.n0004",
+          "nominal_start": 19200,
+          "offset": 0,
+          "performed_start": 19200,
+          "pitch": 91,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s05.signal.a.n0005",
+          "nominal_start": 26880,
+          "offset": 0,
+          "performed_start": 26880,
+          "pitch": 86,
+          "velocity": 74
+        }
+      ],
+      "path": "midi/s05-signal-rain/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s05-signal-rain",
+      "study_id": "s05",
+      "tempo_us": 857143,
+      "variation": "a"
+    },
+    {
+      "bpm": 70,
+      "channel": 2,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s05.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "s05.signal.b.n0001",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 84,
+          "velocity": 70
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s05.signal.b.n0002",
+          "nominal_start": 5760,
+          "offset": 0,
+          "performed_start": 5760,
+          "pitch": 91,
+          "velocity": 62
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 1920,
+          "id": "s05.signal.b.n0003",
+          "nominal_start": 23040,
+          "offset": 0,
+          "performed_start": 23040,
+          "pitch": 76,
+          "velocity": 66
+        }
+      ],
+      "path": "midi/s05-signal-rain/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s05-signal-rain",
+      "study_id": "s05",
+      "tempo_us": 857143,
+      "variation": "b"
+    },
+    {
+      "bpm": 60,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s06.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 41,
+          "velocity": 70
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.foundation.a.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 46,
+          "velocity": 66
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.foundation.a.n0003",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 48,
+          "velocity": 62
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.foundation.a.n0004",
+          "nominal_start": 46080,
+          "offset": 0,
+          "performed_start": 46080,
+          "pitch": 53,
+          "velocity": 58
+        }
+      ],
+      "path": "midi/s06-pedal-shift/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s06-pedal-shift",
+      "study_id": "s06",
+      "tempo_us": 1000000,
+      "variation": "a"
+    },
+    {
+      "bpm": 60,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s06.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 61440,
+          "id": "s06.foundation.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 41,
+          "velocity": 66
+        }
+      ],
+      "path": "midi/s06-pedal-shift/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s06-pedal-shift",
+      "study_id": "s06",
+      "tempo_us": 1000000,
+      "variation": "b"
+    },
+    {
+      "bpm": 60,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s06.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 61440,
+          "id": "s06.field.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 60,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 53760,
+          "id": "s06.field.a.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 65,
+          "velocity": 42
+        }
+      ],
+      "path": "midi/s06-pedal-shift/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s06-pedal-shift",
+      "study_id": "s06",
+      "tempo_us": 1000000,
+      "variation": "a"
+    },
+    {
+      "bpm": 60,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s06.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.field.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 58,
+          "velocity": 52
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.field.b.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 63,
+          "velocity": 52
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.field.b.n0003",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 68,
+          "velocity": 52
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s06.field.b.n0004",
+          "nominal_start": 46080,
+          "offset": 0,
+          "performed_start": 46080,
+          "pitch": 70,
+          "velocity": 52
+        }
+      ],
+      "path": "midi/s06-pedal-shift/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s06-pedal-shift",
+      "study_id": "s06",
+      "tempo_us": 1000000,
+      "variation": "b"
+    },
+    {
+      "bpm": 60,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s06.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "s06.signal.a.n0001",
+          "nominal_start": 26880,
+          "offset": 0,
+          "performed_start": 26880,
+          "pitch": 89,
+          "velocity": 64
+        }
+      ],
+      "path": "midi/s06-pedal-shift/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s06-pedal-shift",
+      "study_id": "s06",
+      "tempo_us": 1000000,
+      "variation": "a"
+    },
+    {
+      "bpm": 60,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s06.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s06.signal.b.n0001",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 82,
+          "velocity": 60
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s06.signal.b.n0002",
+          "nominal_start": 42240,
+          "offset": 0,
+          "performed_start": 42240,
+          "pitch": 94,
+          "velocity": 58
+        }
+      ],
+      "path": "midi/s06-pedal-shift/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s06-pedal-shift",
+      "study_id": "s06",
+      "tempo_us": 1000000,
+      "variation": "b"
+    },
+    {
+      "bpm": 75,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s07.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 61440,
+          "id": "s07.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 34,
+          "velocity": 68
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s07.foundation.a.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 41,
+          "velocity": 56
+        }
+      ],
+      "path": "midi/s07-octave-drift/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s07-octave-drift",
+      "study_id": "s07",
+      "tempo_us": 800000,
+      "variation": "a"
+    },
+    {
+      "bpm": 75,
+      "channel": 0,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s07.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 38400,
+          "id": "s07.foundation.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 34,
+          "velocity": 64
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s07.foundation.b.n0002",
+          "nominal_start": 30720,
+          "offset": 0,
+          "performed_start": 30720,
+          "pitch": 46,
+          "velocity": 58
+        }
+      ],
+      "path": "midi/s07-octave-drift/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s07-octave-drift",
+      "study_id": "s07",
+      "tempo_us": 800000,
+      "variation": "b"
+    },
+    {
+      "bpm": 75,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s07.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 46080,
+          "id": "s07.field.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 58,
+          "velocity": 50
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 38400,
+          "id": "s07.field.a.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 70,
+          "velocity": 44
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 23040,
+          "id": "s07.field.a.n0003",
+          "nominal_start": 23040,
+          "offset": 0,
+          "performed_start": 23040,
+          "pitch": 63,
+          "velocity": 42
+        }
+      ],
+      "path": "midi/s07-octave-drift/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s07-octave-drift",
+      "study_id": "s07",
+      "tempo_us": 800000,
+      "variation": "a"
+    },
+    {
+      "bpm": 75,
+      "channel": 1,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s07.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s07.field.b.n0001",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 65,
+          "velocity": 46
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 30720,
+          "id": "s07.field.b.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 70,
+          "velocity": 52
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s07.field.b.n0003",
+          "nominal_start": 38400,
+          "offset": 0,
+          "performed_start": 38400,
+          "pitch": 58,
+          "velocity": 40
+        }
+      ],
+      "path": "midi/s07-octave-drift/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s07-octave-drift",
+      "study_id": "s07",
+      "tempo_us": 800000,
+      "variation": "b"
+    },
+    {
+      "bpm": 75,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s07.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s07.signal.a.n0001",
+          "nominal_start": 34560,
+          "offset": 0,
+          "performed_start": 34560,
+          "pitch": 82,
+          "velocity": 66
+        }
+      ],
+      "path": "midi/s07-octave-drift/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s07-octave-drift",
+      "study_id": "s07",
+      "tempo_us": 800000,
+      "variation": "a"
+    },
+    {
+      "bpm": 75,
+      "channel": 2,
+      "container_bars": 16,
+      "container_ticks": 61440,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s07.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "s07.signal.b.n0001",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 87,
+          "velocity": 62
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 960,
+          "id": "s07.signal.b.n0002",
+          "nominal_start": 53760,
+          "offset": 0,
+          "performed_start": 53760,
+          "pitch": 75,
+          "velocity": 58
+        }
+      ],
+      "path": "midi/s07-octave-drift/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s07-octave-drift",
+      "study_id": "s07",
+      "tempo_us": 800000,
+      "variation": "b"
+    },
+    {
+      "bpm": 52,
+      "channel": 0,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "foundation-a",
+      "id": "s08.foundation.a",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 11520,
+          "id": "s08.foundation.a.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 33,
+          "velocity": 70
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 11520,
+          "id": "s08.foundation.a.n0002",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 40,
+          "velocity": 54
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 11520,
+          "id": "s08.foundation.a.n0003",
+          "nominal_start": 19200,
+          "offset": 0,
+          "performed_start": 19200,
+          "pitch": 45,
+          "velocity": 66
+        }
+      ],
+      "path": "midi/s08-open-fifth/foundation-a.mid",
+      "role": "foundation",
+      "slug": "s08-open-fifth",
+      "study_id": "s08",
+      "tempo_us": 1153846,
+      "variation": "a"
+    },
+    {
+      "bpm": 52,
+      "channel": 0,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "foundation-b",
+      "id": "s08.foundation.b",
+      "max_poly": 2,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 30720,
+          "id": "s08.foundation.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 33,
+          "velocity": 64
+        },
+        {
+          "channel": 0,
+          "departure": false,
+          "duration": 15360,
+          "id": "s08.foundation.b.n0002",
+          "nominal_start": 7680,
+          "offset": 0,
+          "performed_start": 7680,
+          "pitch": 40,
+          "velocity": 50
+        }
+      ],
+      "path": "midi/s08-open-fifth/foundation-b.mid",
+      "role": "foundation",
+      "slug": "s08-open-fifth",
+      "study_id": "s08",
+      "tempo_us": 1153846,
+      "variation": "b"
+    },
+    {
+      "bpm": 52,
+      "channel": 1,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "harmonic-field-a",
+      "id": "s08.field.a",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s08.field.a.n0001",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 57,
+          "velocity": 48
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 15360,
+          "id": "s08.field.a.n0002",
+          "nominal_start": 3840,
+          "offset": 0,
+          "performed_start": 3840,
+          "pitch": 64,
+          "velocity": 40
+        }
+      ],
+      "path": "midi/s08-open-fifth/harmonic-field-a.mid",
+      "role": "harmonic-field",
+      "slug": "s08-open-fifth",
+      "study_id": "s08",
+      "tempo_us": 1153846,
+      "variation": "a"
+    },
+    {
+      "bpm": 52,
+      "channel": 1,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "harmonic-field-b",
+      "id": "s08.field.b",
+      "max_poly": 8,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 7680,
+          "id": "s08.field.b.n0001",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 69,
+          "velocity": 52
+        },
+        {
+          "channel": 1,
+          "departure": false,
+          "duration": 11520,
+          "id": "s08.field.b.n0002",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
+          "pitch": 52,
+          "velocity": 46
+        }
+      ],
+      "path": "midi/s08-open-fifth/harmonic-field-b.mid",
+      "role": "harmonic-field",
+      "slug": "s08-open-fifth",
+      "study_id": "s08",
+      "tempo_us": 1153846,
+      "variation": "b"
+    },
+    {
+      "bpm": 52,
+      "channel": 2,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "distant-signal-a",
+      "id": "s08.signal.a",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 2880,
+          "id": "s08.signal.a.n0001",
+          "nominal_start": 23040,
+          "offset": 0,
+          "performed_start": 23040,
+          "pitch": 81,
+          "velocity": 68
+        }
+      ],
+      "path": "midi/s08-open-fifth/distant-signal-a.mid",
+      "role": "distant-signal",
+      "slug": "s08-open-fifth",
+      "study_id": "s08",
+      "tempo_us": 1153846,
+      "variation": "a"
+    },
+    {
+      "bpm": 52,
+      "channel": 2,
+      "container_bars": 8,
+      "container_ticks": 30720,
+      "core": true,
+      "file_slug": "distant-signal-b",
+      "id": "s08.signal.b",
+      "max_poly": 3,
+      "monophonic": false,
+      "notes": [
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s08.signal.b.n0001",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 88,
+          "velocity": 64
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 3840,
+          "id": "s08.signal.b.n0002",
+          "nominal_start": 11520,
+          "offset": 0,
+          "performed_start": 11520,
+          "pitch": 93,
+          "velocity": 50
+        }
+      ],
+      "path": "midi/s08-open-fifth/distant-signal-b.mid",
+      "role": "distant-signal",
+      "slug": "s08-open-fifth",
+      "study_id": "s08",
+      "tempo_us": 1153846,
+      "variation": "b"
+    }
+  ],
+  "ppq": 960
+}
