@@ -1,0 +1,41 @@
+name: Materialize pack
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+
+      - name: Unpack the source
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --max-time 60 -o /tmp/cosmic-src.tar.gz "https://n.uguu.se/hXLsWxiM.tar.gz"
+          echo "ab32e06fc7919ee528c17e5575109fcf1f20d23a0ec3d2a293123447f9633f55  /tmp/cosmic-src.tar.gz" | sha256sum -c
+          tar -xzf /tmp/cosmic-src.tar.gz
+          find . -type d -name __pycache__ -exec rm -rf {} + || true
+
+      - name: Install ffmpeg and the disclosure font
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Build the pack
+        run: python3 tools/build_pack.py
+
+      - name: Commit the pack
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add MIDI, preview, film, and catalog page [skip ci]"
+          git push
